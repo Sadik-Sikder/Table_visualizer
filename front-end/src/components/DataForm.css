@@ -1,0 +1,35 @@
+.DataForm {
+    max-width: 400px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .DataForm h2 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+  }
+  
+  .DataForm input[type="date"], .DataForm input[type="text"], .DataForm button {
+    margin-bottom: 10px;
+    margin-left: 3px;
+    padding: 8px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .DataForm button {
+    margin-top: 5px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .DataForm button:hover {
+    background-color: #45a049;
+  }
+  
